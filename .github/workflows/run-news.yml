@@ -2,7 +2,7 @@ name: Run Daily Newspaper
 
 on:
 schedule:
-- cron: "0 14 * * *"  # runs daily at 7 AM Phoenix time (UTC-7)
+- cron: "0 14 * * *"
 workflow_dispatch:
 
 jobs:
